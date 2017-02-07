@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow: hidden;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heleSkjermen {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1
+}
+
+@font-face {
+    font-family: 'A day without sun';
+    src: url('A DAY WITHOUT SUN.otf');
+}
+
+.sitat {
+    font-family: 'A day without sun', sans-serif;
+    font-size: 225px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 90%;
+    word-wrap: break-word;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    position: absolute;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 10% 25% 10% 25%;
+    display: none;
+    z-index: 3;
+    overflow-y: auto;
+}
+
+.hvaOgHvem {
+    font-family: 'A day without sun', sans-serif;
+    font-size: 100px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 90%;
+    word-wrap: break-word;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    position: absolute;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 20% 2% 25% 77%;
+    display: none;
+    z-index: 3;
+    overflow-y: auto;
+}
+
+.gjennomsiktigSkjerm {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 4;
+    display: block;
+}
+
+.mørkSkjerm {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 5;
+    display: none;
+}
+
+.liste {
+    margin: 95px 25px 25px 25px;
+    width: 20%;
+    max-height: 0;
+    position: absolute;
+    display: block;
+    background-color: #ddd;
+    z-index: 4;
+    border-radius: 0 0 4px 4px;
+    transition: max-height 0s;
+    overflow-y: auto;
+}
+
+.liste:hover {
+    cursor: pointer;
+}
+
+.listeobjekt {
+    padding-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #222;
+    line-height: 48px;
+    display: block;
+}
+
+.listeobjekt:hover {
+    background-color: #aaa;
+}
+
+.listeobjekt:active {
+    background-color: #666;
+}
+
+.over {
+    max-height: 0;
+    transition: max-height 0s;
+    overflow-y: hidden;
+}
+
+.sist:hover {
+    border-radius: 0 0 4px 4px;
+}
+
+.navigasjonsmenytopp {
+    margin-top: 25px;
+    margin-left: 25px;
+    height: 70px;
+    width: 20%;
+    display: none;
+    position: absolute;
+    z-index: 4;
+    background-color: #222;
+    border-radius: 4px 4px 0 0;
+}
+
+.trestripeknapp {
+    margin-top: 40px;
+    margin-left: 50px;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 4;
+}
+
+.stripe1, .stripe2, .stripe3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ddd;
+    margin: 6px 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.endring .stripe1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.endring .stripe2 {
+    opacity: 0;
+}
+
+.endring .stripe3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.nyttSitat {
+    width: 5%;
+    margin: 40px 47.5% 50% 47.5%;
+    position: absolute;
+    text-align: center;
+    color: #ddd;
+    display: none;
+    z-index: 4;
+}
+
+.nyttSitat:hover {
+    color: #444;
+}
+
+.googlesøk {
+    right: 0px;
+    margin-top: 40px;
+    margin-right: 50px;
+    position: absolute;
+    color: #ddd;
+    display: none;
+    z-index: 4;
+}
+
+.googlesøk:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+.jaTilKnapp {
+    display: block !important;
+}
+
+.neiTilKnapp {
+    display: none !important;
+}
+
+.søkebar {
+    display: none;
+}
+
+input[type=search] {
+    width: 75%;
+    height: 75px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 25% 12.5%;
+    font-size: 30px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    position: absolute;
+    display: block;
+    z-index: 6;
+}
+
+button[type=submit] {
+    width: 75px;
+    height: 75px;
+    color: white;
+    text-align: center;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 25% 0 25% 88%;
+    background-color: #666;
+    position: absolute;
+    display: block;
+    z-index: 6;
+}
+
+button[type=submit]:hover {
+    color: #666;
+    background-color: white;
+    cursor: pointer;
+}
+
+button[type=submit]:active {
+    color: white;
+    background-color: #666;
+}
+
+.t-rex {
+    font-size: 20px;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    padding: 0 15%;
+    display: block;
+    color: white;
+}

@@ -35,10 +35,16 @@
 
     <fieldset>
         <h3><legend>Fjern sider/undermenyer</legend></h3>
-        Navn:<br>
-        <input type="text" id="fjernSide" placeholder="Eksempelside"><br><br>
+        Sidenavn:<br>
+        <select name="sideTilFjerning" id="sideTilFjerning">
+            <option></option>
+        </select><br><br>
+        Undermenynavn:<br>
+        <select name="undermenyTilFjerning" id="undermenyTilFjerning">
+            <option></option>
+        </select><br><br>
         <button id="fjernKnapp">Fjern</button>&nbsp;&nbsp;&nbsp;
-        <button id="fjernAltKnapp">Fjern alle</button><br><br>
+        <button id="fjernAltKnapp">Fjern alt</button><br><br>
         <span id="fjernStatus"></span><br>
     </fieldset>
 

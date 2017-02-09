@@ -55,27 +55,66 @@ function leggTilMeny() {
 }
 document.getElementById('leggTilMenyKnapp').addEventListener('click', leggTilMeny);
 
-//Funksjon som fjerner sider og menyer.
+//Funksjon som avgjør om sider eller undermenyer skal fjernes.
 function fjern() {
-    var fjernSide = document.getElementById('fjernSide').value;
-    if (fjernSide == '') {
+    var sideTilFjerning = document.getElementById('sideTilFjerning').value;
+    var undermenyTilFjerning = document.getElementById('undermenyTilFjerning').value;
+    if ((sideTilFjerning == '') && (undermenyTilFjerning == '')) {
         var status = document.getElementById('fjernStatus');
-        status.textContent = 'Du må angi elementets navn';
+        status.textContent = 'Du må angi en side eller undermeny som skal fjernes';
         setTimeout(function() {
             status.textContent = '';
         }, 2000);
-    } else {
-        document.getElementById('fjernSide').value = '';
-        chrome.storage.sync.remove(fjernSide, function() {
-            var status = document.getElementById('fjernStatus');
-            status.textContent = 'Side fjernet';
-            setTimeout(function() {
-                status.textContent = '';
-            }, 2000);
-        });
+    } else if ((sideTilFjerning != '') && (undermenyTilFjerning != '')) {
+        var status = document.getElementById('fjernStatus');
+        status.textContent = 'Du kan ikke fjerne både en side og undermeny samtidig';
+        setTimeout(function() {
+            status.textContent = '';
+        }, 2000);
+    } else if (sideTilFjerning != '') {
+        fjernSide();
+    } else if (undermenyTilFjerning != '') {
+        fjernUndermeny();
     }
 }
 document.getElementById('fjernKnapp').addEventListener('click', fjern);
+
+//Funksjon som fjerner sider.
+function fjernSide() {
+    var sideTilFjerning = document.getElementById('sideTilFjerning').value;
+    document.getElementById('sideTilFjerning').value = '';
+    chrome.storage.sync.remove(sideTilFjerning, function() {
+        var status = document.getElementById('fjernStatus');
+        status.textContent = 'Side fjernet';
+        setTimeout(function() {
+            status.textContent = '';
+        }, 2000);
+    });
+}
+
+//Funksjon som fjerner undermenyer.
+function fjernUndermeny() {
+    var undermenyTilFjerning = document.getElementById('undermenyTilFjerning').value;
+    document.getElementById('undermenyTilFjerning').value = '';
+    chrome.storage.sync.remove(undermenyTilFjerning, function() {
+        var status = document.getElementById('fjernStatus');
+        status.textContent = 'Undermeny fjernet';
+        setTimeout(function() {
+            status.textContent = '';
+        }, 2000);
+    });
+    chrome.storage.sync.get(null, function(items) {
+        var alleNøkler = Object.keys(items);
+        alleNøkler.forEach(function(nøkkel) {
+            var verdi = items[nøkkel];
+            if (verdi.length > 2) {
+                if (verdi[3] == undermenyTilFjerning) {
+                    chrome.storage.sync.remove(verdi);
+                }
+            }
+        });
+    });
+}
 
 //Funksjon som fjerner alle elementene.
 function fjernAlt() {
@@ -91,7 +130,7 @@ function fjernAlt() {
     document.getElementById('erDuSikker').addEventListener('click', function() {
         chrome.storage.sync.clear(function() {
             var status = document.getElementById('fjernStatus');
-            status.textContent = 'Alle sider fjernet';
+            status.textContent = 'Alle elementer fjernet';
             setTimeout(function() {
                 status.textContent = '';
             }, 2000);
@@ -106,14 +145,25 @@ function lastInnEgneInnstillinger() {
         var alleNøkler = Object.keys(items);
         alleNøkler.forEach(function(nøkkel) {
             var verdi = items[nøkkel];
-            if (verdi.length < 4) {
-                var option = document.createElement('OPTION');
+            if (verdi.length > 2) {
+                var fjernSideValg = document.createElement('OPTION');
                 var tekst = verdi[0];
-                option.text = tekst;
-                option.value = tekst;
-                document.getElementById('hvorSidenPlasseres').add(option);
+                fjernSideValg.text = tekst;
+                fjernSideValg.value = tekst;
+                document.getElementById('sideTilFjerning').add(fjernSideValg);
+            } if (verdi.length < 4) {
+                var plasseringValg = document.createElement('OPTION');
+                var tekst = verdi[0];
+                plasseringValg.text = tekst;
+                plasseringValg.value = tekst;
+                document.getElementById('hvorSidenPlasseres').add(plasseringValg);
+                var fjernUndermenyValg = document.createElement('OPTION');
+                var tekst = verdi[0];
+                fjernUndermenyValg.text = tekst;
+                fjernUndermenyValg.value = tekst;
+                document.getElementById('undermenyTilFjerning').add(fjernUndermenyValg);
             }
-        })
-    })
+        });
+    });
 }
 window.onload = lastInnEgneInnstillinger();

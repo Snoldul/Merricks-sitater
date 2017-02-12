@@ -214,7 +214,7 @@ var sitat18 = ['Selv om din sykkel har medvind betyr ikke det at min sykkel har 
 var sitat19 = ['Kom deg inn på rommet, din grevling!', 'Merrick jager Jørge mot sistnevntes rom med en pizzaskjærer og kommer samtidig med dette verbale utbruddet.'];
 var sitat20 = ['Treff meg på rumpa, sa jeg!'];
 var sitat21 = ['Let\'s disagree to agree.'];
-var sitat22 = ['Blandeforholdet er 2 : 2.'];
+var sitat22 = ['Blande-forholdet er 2 : 2.'];
 var sitat23 = ['Jeg får lyst til å pisse på deg!'];
 var sitat24 = ['God natt, skal du ha en pille?'];
 var sitat25 = ['Faen, jeg rev i stykker løsningsforslaget!', 'Merrick leser på de to pappbitene som utgjorde fiskepakken, og viser samtidig hvorfor han skal bli ingeniør og ikke kokk.'];
@@ -296,7 +296,7 @@ var sitat100 = ['Jeg elsker filmer med sånn lucky ending.'];
 var sitat101 = ['Det finnes ikke dårlig vær, bare dårlig klær ... og dårlig fly.'];
 var sitat102 = ['Snart får jeg så store brystmuskler at jeg kan leke med meg selv, så jeg ikke trenger chicks.'];
 var sitat103 = ['Akkurat nå vil jeg heller krige for Taliban enn å dra på cavasøndag.'];
-var sitat104 = ['Det er faen meg ikke noe god morgen!', 'Klokka 07.15 sitter Røvde og spiser frokost, da T-rexen akkurat har våknet og kommer ut fra hula si. Røvde sier "God morgen", og får kjapt svar tilbake.'];
+var sitat104 = ['Det er faen meg ikke noe god morgen!', 'Klokka 07.15 sitter Røvde og spiser frokost, da T-rexen akkurat har våknet og kommer ut fra hula si. Røvde sier "God morgen!", og får kjapt svar tilbake.'];
 var sitat105 = ['Jeg har kjøpt ørepropper, så du kan bråke så mye du faen meg vil.', 'Med to timers innsovningstid må Lean Bean finne måter å stenge ut Jørges bråk seint på kvelden.'];
 var sitat106 = ['Vekkerklokka mi ringer høyere enn brannalarmen, det skal jeg love deg.'];
 var sitat107 = ['Jeg er litt redd for at jeg ikke kommer til å våkne av vekkerklokka. Det kan bli et problem for dere.'];
@@ -342,7 +342,7 @@ var sitat146 = ['Vi har altfor mange 97 i klassen ass. Man kan jo ikke være im�
 var sitat147 = ['Nå har jeg kjøpt nye ørepropper som tar 35 desibel, så nå kan du bråke så mye du faen meg vil, Jørge!'];
 var sitat148 = ['Stresse for eksamen? Er du en jævla jente eller?'];
 var sitat149 = ['Nå har du for mye østrogen i kroppen ass, Hattestad, når du tenker på sånne ting.'];
-var sitat150 = ['Kom ikke du hjem i stad? Glemte du noe?', 'Jørge svarer tydelig nei på første spørsmål, men får likevel oppfølgingsspørsmål av Lean Bean.'];
+var sitat150 = ['Kom ikke du hjem i stad? *** Glemte du noe?', 'Nei..?'];
 var sitat151 = ['Man merker om man sover sånn dyp søvn eller sånn lett bikkjesøvn.'];
 var sitat152 = ['Nei, jeg skal sove. Du kommer til å angre i morgen.', 'Jørge prøver å komme inn på rommet til Merrick for å gi en beskjed. Det nytter ikke når Lean Bean allerede har begynt den to timer lange innsovningsfasen.'];
 var sitat153 = ['Sooov tryyygt...'];
@@ -352,11 +352,11 @@ var sitat156 = ['Fem', 'Lean Bean blir spurt hvor mange slag han tror han trenge
 var sitat157 = ['Skaff deg slåbrok a!'];
 var sitat158 = ['Du marger som faen! Se som du marger a, Jørge! Se på deg a!'];
 var sitat159 = ['Vanskelig å si... men det er nok henne. Hun har jo så mye olje og piss inni der.', 'T-rexen blir spurt hvem han tror har størst rumpe av han og Nicki Minaj.'];
-var sitat160 = ['Du vet jeg har riktig. Det er feil.', 'Etter første setning kommer Jørge med følgende kommentar: "Ja, jeg veit jo at alt du sier er riktig."'];
+var sitat160 = ['Du vet jeg har riktig. *** Det er feil.', 'Ja, jeg veit jo at alt du sier er riktig.'];
 var sitat161 = ['Du får spørre reven.', 'Lean Bean blir spurt hvordan det føles at ingenting av det han sier gir mening.'];
 var sitat162 = ['Tater, hva slags vær er det ute?'];
 var sitat163 = ['Du må legge deg tidlig, så kanskje du hører bedre i morgen.'];
-var sitat164 = ['Du burde spørre deg selv hvorfor du hører så dårlig. Jeg kan ikke spørre meg selv om det, jeg må spørre legen.', 'Jørge mener han hører godt, og sier følgende: "Nei, du burde spørre deg selv hvorfor du puster så rart."'];
+var sitat164 = ['Du burde spørre deg selv hvorfor du hører så dårlig. *** Jeg kan ikke spørre meg selv om det, jeg må spørre legen.', 'Nei, du burde spørre deg selv hvorfor du puster så rart.'];
 var sitat165 = ['Det er frakk ... og ikke regnjakke som i går, for å si det sånn.', 'Jørge spør Merrick hva dagens værmelding er.'];
 var sitat166 = ['Fittefisken, hvor er du?'];
 var sitat167 = ['Jeg er hasj ... harsh.', 'Jørge sier følgende: "Fy faen, du er grusom ass!"'];
@@ -377,7 +377,7 @@ var sitat181 = ['Hvorfor tar du mine epler?!', 'Røvde sjonglerer med sine egne 
 var sitat182 = ['Nå må jeg ikke drite lenger, jeg skremte bæsjen inne.'];
 var sitat183 = ['Hvor ble det av kreftegget?', 'Merrick har kjøpt egg, men er litt skeptisk til det ene som atpåtil har blitt borte.'];
 var sitat184 = ['Time kills. Time will kill every living thing.'];
-var sitat185 = ['Happy keel day! Ja, det er kål på engelsk!', 'Jørge svarer undrende "Keel?" når han blir gratulert der han står og skjærer kål, og får høre at keel ikke betyr kjøl slik han hadde trodd.'];
+var sitat185 = ['Happy keel day! *** Ja, det er kål på engelsk!', 'Keel?'];
 var sitat186 = ['Jo mer lyd man lager når man spiser og drikker, jo bedre smaker maten og drikken.'];
 var sitat187 = ['Fuck the war when you can parkour.'];
 var sitat188 = ['Typisk sånn svensk, østeuropeisk fitte.'];
@@ -417,7 +417,7 @@ var sitat221 = ['Du sier til meg at det er teit at jeg kjøper ørepropper, ogs�
 var sitat222 = ['Hvorfor står du på rommet mitt?', 'Jørge står i gangen når Merrick kommer inn ytterdøra.'];
 var sitat223 = ['Hver gang jeg tryner, så klarer jeg å hente meg inn.'];
 var sitat224 = ['Jeg må ha sjokoladen din, jeg er jævlig kvalm!'];
-var sitat225 = ['Du stod opp tidlig for å skjøpe mat? Det var jo det jeg sa!', 'Skjøpe ja?'];
+var sitat225 = ['Du stod opp tidlig for å skjøpe mat? *** Det var jo det jeg sa!', 'Skjøpe ja?'];
 var sitat226 = ['Ikke forstyrr meg når jeg ser på porno!'];
 var sitat227 = ['Don\'t play the game, Jørge.'];
 var sitat228 = ['Drikker du juice om kvelden? Du er så jævlig nightman om dagen og dayman om natten. Drikke juice om kvelden, hvem faen gjør det?'];
@@ -462,55 +462,54 @@ var sitat266 = ['Hvem faen sier grass? Det er så jævlig forhistorisk!', 'Lean 
 var sitat267 = ['Jeg vedder hele arven min på at det var en jente som kjørte.'];
 var sitat268 = ['Fem tonn ... er fem tonn liter.'];
 var sitat269 = ['Kunne du levd under en kvinnelig konge?'];
-var sitat270 = ['Jeg var verdensmester i pullups hele ungdomsskolen, men så slutta jeg å trene mage'];
-var sitat271 = ['Ta bilde av meg mens jeg roper "the red biceps"'];
-var sitat272 = ['Se så jævlig underarmene mine peaker, som en gresk gud'];
-var sitat273 = ['Angrer på at jeg trente markløft, har fått så brede hofter'];
-var sitat274 = ['Det er den enste grunnen til at jeg har hund. For at den kan spise opp tacoen min'];
-var sitat275 = ['Hørte du han som lo da jeg sa den vitsen om termostaten også lo han helt tragisk? Han kommer til å dø i felt'];
-var sitat276 = ['I morgen er det badevakt, så da kan jeg vise frem kroppen min'];
-var sitat277 = ['Jeg ble litt feitere enn det jeg alltid har vært, så jeg strakk bicepsen min'];
-var sitat278 = ['Jeg så på bicepsen mine, og bare hva faaen. Så jeg dro rett hjem og spiste som en ku'];
-var sitat279 = ['Jeg skal bli Forrest Gump mens jeg er he'];
-var sitat280 = ['Det er for mye å sette seg inn i, derfor gidder jeg ikke begynne med steroider'];
-var sitat281 = ['Jeg må ta det pisset her, så må jeg ringe mor. Jævla mor. Så mye stress'];
-var sitat282 = ['Erlend, hvitt pulver er aldri farlig'];
-var sitat283 = ['Faen, alle rundt meg får sixpack, utenom meg'];
+var sitat270 = ['Jeg var verdensmester i pullups hele ungdomsskolen, men så slutta jeg å trene mage.'];
+var sitat271 = ['Ta bilde av meg mens jeg roper "The red biceps!"'];
+var sitat272 = ['Se så jævlig underarmene mine peaker. Som en gresk gud.'];
+var sitat273 = ['Angrer på at jeg trente markløft. Har fått så brede hofter.'];
+var sitat274 = ['Det er den enste grunnen til at jeg har hund. For at den kan spise opp tacoen min.'];
+var sitat275 = ['Hørte du han som lo da jeg sa den vitsen om termostaten, også lo han helt tragisk? Han kommer til å dø i felt.'];
+var sitat276 = ['I morgen er det badevakt, så da kan jeg vise frem kroppen min.'];
+var sitat277 = ['Jeg ble litt feitere enn det jeg alltid har vært, så jeg strakk bicepsen min.'];
+var sitat278 = ['Jeg så på bicepsen mine, og bare hva faen? Så jeg dro rett hjem og spiste som en ku.'];
+var sitat279 = ['Jeg skal bli Forrest Gump mens jeg er her.'];
+var sitat280 = ['Det er for mye å sette seg inn i, derfor gidder jeg ikke begynne med steroider.'];
+var sitat281 = ['Jeg må ta det pisset her, så må jeg ringe mor. Jævla mor. Så mye stress!'];
+var sitat282 = ['Erlend, hvitt pulver er aldri farlig.'];
+var sitat283 = ['Faen, alle rundt meg får sixpack, utenom meg.'];
 var sitat284 = ['Jeg tenkte meg ikke om før jeg sa det.'];
-var sitat285 = ['Faen ass, penis-lo er det verste i verden ass'];
-var sitat286 = ['What, han må jo ha et rart navn, sånn trygve, bjørnebær, eller bert.'];
-var sitat287 = ['Hold kjeft ellers så kapper jeg over pulsåra di med tåneglen min'];
-var sitat288 = ['Jeg skulle bare lukte på hodebunnen din. Bare la meg gjøre det da'];
-var sitat289 = ['Faen sett deg ved siden av meg. Trenger folk på begge sider for å kunne spise'];
-var sitat290 = ['Hvis du trener for mye utholdenhet, så blir tissen din rød og ubrukelig'];
-var sitat291 = ['Å fy faen lukt a. Det lukter så jævlig snø som smelter'];
-var sitat292 = ['Faen! Jeg har fått aids'];
-var sitat293 = ['Jeg kommer aldri med hode under vann lenger'];
-var sitat294 = ['Har kongen i Mexico bursdag?', 'Texmex til middag'];
-var sitat295 = ['Og proteinpulver','Skomdal: - det beste du kan spise er, brokoli, walnøtter og bønner.'];
-var sitat296 = ['Før trodde jeg øl-briller var noe man brukte for å ikke få øl-sprut i øyet'];
-var sitat297 = ['Jeg sier til vanlig "faen så stygge briller" for det kan bety hva som helst'];
-var sitat298 = ['Faen, denne appelsinjuiceen her er mer vannet ut enn vann'];
-var sitat299 = ['Man kan gjøre hva man vil med Hetland, han har så tynt hode'];
-var sitat300 = ['Jeg dreper han, jeg har gjort det før.'];
-var sitat301 = ['Han har fått bratlisykd. (Brakkesyke)'];
-var sitat302 = ['Jeg skal slå wold så hardt at han våkner'];
-var sitat303 = ['De tre verste tingene ved en jente er, emo, sån kvinne kjemper og vegetarianer\n\n\nButt, face og ass','hva er de tre beste'];
-var sitat304 = ['Du bare legger den i skrittet. Ingen kan ta deg for det', 'Hvordan smugle ut en banan fra messa'];
-var sitat305 = ['Du trenger ikke vaske nettingen, den er selvvaskende'];
-var sitat306 = ['VELG DINE JÆVLA ORD!', 'Du har så små biceps'];
-var sitat307 = ['Jeg glemte å runke i permen'];
-var sitat308 = ['De fungerer som shorts', 'Merrick går i forsvarsbokseren'];
-var sitat309 = ['Du er feit får å være tynn'];
-var sitat310 = ['Jeg har en venn som har store ører det er den eneste grunnen til at jeg er venn med han'];
-var sitat311 = ['Han er så sykt drittsekk, det er derfor jeg liker han'];
+var sitat285 = ['Faen ass, penislo er det verste i verden ass.'];
+var sitat286 = ['What? Han må jo ha et rart navn, sånn Trygve, Bjørnebær, eller Bert.'];
+var sitat287 = ['Hold kjeft, ellers så kapper jeg over pulsåra di med tåneglen min.'];
+var sitat288 = ['Jeg skulle bare lukte på hodebunnen din. Bare la meg gjøre det da.'];
+var sitat289 = ['Faen sett deg ved siden av meg. Trenger folk på begge sider for å kunne spise.'];
+var sitat290 = ['Hvis du trener for mye utholdenhet, så blir tissen din rød og ubrukelig.'];
+var sitat291 = ['Å fy faen, lukt a! Det lukter så jævlig snø som smelter!'];
+var sitat292 = ['Faen! Jeg har fått aids!'];
+var sitat293 = ['Jeg kommer aldri med hode under vann lenger.'];
+var sitat294 = ['Har kongen i Mexico bursdag?', 'Det serveres tex-mex i messa.'];
+var sitat295 = ['Og protein-pulver', 'Skomedal: "Det beste du kan spise er brokkoli, valnøtter og bønner."'];
+var sitat296 = ['Før trodde jeg ølbriller var noe man brukte for å ikke få ølsprut i øyet.'];
+var sitat297 = ['Jeg sier til vanlig "Faen så stygge briller", for det kan bety hva som helst.'];
+var sitat298 = ['Faen, denne appelsinjuicen her er mer vannet ut enn vann.'];
+var sitat299 = ['Man kan gjøre hva man vil med Hetland, han har så tynt hode.'];
+var sitat300 = ['Jeg dreper han. Jeg har gjort det før!'];
+var sitat301 = ['Han har fått Bratlisyke.', 'Også kalt brakkesyke.'];
+var sitat302 = ['Jeg skal slå Wold så hardt at han våkner!'];
+var sitat303 = ['De tre verste tingene ved en jente er emo, sånn kvinnekjemper og vegetarianer. Butt, face og ass.','Hva er de tre beste?'];
+var sitat304 = ['Du bare legger den i skrittet. Ingen kan ta deg for det.', 'Hvordan smugle ut en banan fra messa.'];
+var sitat305 = ['Du trenger ikke vaske nettingen, den er selvvaskende!'];
+var sitat306 = ['Velg dine jævla ord!', 'Du har så små biceps.'];
+var sitat307 = ['Jeg glemte å runke i permen...'];
+var sitat308 = ['De fungerer som shorts.', 'Merrick går i forsvarsbokseren.'];
+var sitat309 = ['Du er feit for å være tynn.'];
+var sitat310 = ['Jeg har en venn som har store ører. Det er den eneste grunnen til at jeg er venn med han.'];
+var sitat311 = ['Han er så sykt drittsekk. Det er derfor jeg liker han.'];
 var sitat312 = ['Jeg skal gjøre moren din sjalu med hva jeg skal gjøre med faren din.'];
 
 //Funksjon som angir tilfeldig sitat og tilhørende beskrivelse eller tilfeldig navn.
 function tilfeldigSitat() {
     var sitater = [
         sitat1, sitat2, sitat3, sitat4, sitat5, sitat6, sitat7, sitat8, sitat9, sitat10, sitat11, sitat12, sitat13, sitat14, sitat15, sitat16, sitat17, sitat18, sitat19, sitat20, sitat21, sitat22, sitat23, sitat24, sitat25, sitat26, sitat27, sitat28, sitat29, sitat30, sitat31, sitat32, sitat33, sitat34, sitat35, sitat36, sitat37, sitat38, sitat39, sitat40, sitat41, sitat42, sitat43, sitat44, sitat45, sitat46, sitat47, sitat48, sitat49, sitat50, sitat51, sitat52, sitat53, sitat54, sitat55, sitat56, sitat57, sitat58, sitat59, sitat60, sitat61, sitat62, sitat63, sitat64, sitat65, sitat66, sitat67, sitat68, sitat69, sitat70, sitat71, sitat72, sitat73, sitat74, sitat75, sitat76, sitat77, sitat78, sitat79, sitat80, sitat81, sitat82, sitat83, sitat84, sitat85, sitat86, sitat87, sitat88, sitat89, sitat90, sitat91, sitat92, sitat93, sitat94, sitat95, sitat96, sitat97, sitat98, sitat99, sitat100, sitat101, sitat102, sitat103, sitat104, sitat105, sitat106, sitat107, sitat108, sitat109, sitat110, sitat111, sitat112, sitat113, sitat114, sitat115, sitat116, sitat117, sitat118, sitat119, sitat120, sitat121, sitat122, sitat123, sitat124, sitat125, sitat126, sitat127, sitat128, sitat129, sitat130, sitat131, sitat132, sitat133, sitat134, sitat135, sitat136, sitat137, sitat138, sitat139, sitat140, sitat141, sitat142, sitat143, sitat144, sitat145, sitat146, sitat147, sitat148, sitat149, sitat150, sitat151, sitat152, sitat153, sitat154, sitat155, sitat156, sitat157, sitat158, sitat159, sitat160, sitat161, sitat162, sitat163, sitat164, sitat165, sitat166, sitat167, sitat168, sitat169, sitat170, sitat171, sitat172, sitat173, sitat174, sitat175, sitat176, sitat177, sitat178, sitat179, sitat180, sitat181, sitat182, sitat183, sitat184, sitat185, sitat186, sitat187, sitat188, sitat189, sitat190, sitat191, sitat192, sitat193, sitat194, sitat195, sitat196, sitat197, sitat198, sitat199, sitat200, sitat201, sitat202, sitat203, sitat204, sitat205, sitat206, sitat207, sitat208, sitat209, sitat210, sitat211, sitat212, sitat213, sitat214, sitat215, sitat216, sitat217, sitat218, sitat219, sitat220, sitat221, sitat222, sitat223, sitat224, sitat225, sitat226, sitat227, sitat228, sitat229, sitat230, sitat231, sitat232, sitat233, sitat234, sitat235, sitat236, sitat237, sitat238, sitat239, sitat240, sitat241, sitat242, sitat243, sitat244, sitat245, sitat246, sitat247, sitat248, sitat249, sitat250, sitat251, sitat252, sitat253, sitat254, sitat255, sitat256, sitat257, sitat258, sitat259, sitat260, sitat261, sitat262, sitat263, sitat264, sitat265, sitat266, sitat267, sitat268, sitat269, sitat270, sitat271, sitat272, sitat273, sitat274, sitat275, sitat276, sitat277, sitat278, sitat279, sitat280, sitat281, sitat282, sitat283, sitat284, sitat285, sitat286, sitat287, sitat288, sitat289, sitat290, sitat291, sitat292, sitat293, sitat294, sitat295, sitat296, sitat297, sitat298, sitat299, sitat300, sitat301, sitat302, sitat303, sitat304, sitat305, sitat306, sitat307, sitat308, sitat309, sitat310, sitat311, sitat312
-
     ];
     var tilfeldigTall = Math.floor(Math.random() * sitater.length);
     $('.sitat').text(sitater[tilfeldigTall][0]);
@@ -531,7 +530,9 @@ function tilfeldigNavn() {
         'Merikstad',
         'T-rex',
         'Bean',
-        'Merrick - black of hair'
+        'Merrick - black of hair',
+        'Pett',
+        'Johan Pettersen'
     ];
     var tilfeldigTall = Math.floor(Math.random() * navn.length);
     $('.hvaOgHvem').text(navn[tilfeldigTall]);

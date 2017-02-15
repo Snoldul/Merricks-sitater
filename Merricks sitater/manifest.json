@@ -1,6 +1,6 @@
 {
   "name": "Merricks sitater",
-  "description": "Utvidelsen endrer siden for ny fane til en egendefinert versjon. Trykk på ikonet for å legge til nye sider i navigasjonsmenyen.",
+  "description": "Hver nyåpnede fane gir et herlig sitat fra Merrick på en flott bakgrunn. I tillegg kan favorittsider legges til i menyen på siden.",
   "version": "1.0.0",
   "manifest_version": 2,
   "icons": {

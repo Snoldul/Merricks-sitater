@@ -733,10 +733,11 @@ function lastInnMenyer(nyeMenyer) {
                 span.appendChild(nbsp);
                 span.appendChild(tekst);
                 var navn = verdi[0];
+                navn = navn.replace(/ /g, '_');
                 var spanklasse = 'listeobjekt over ' + navn;
                 span.className = spanklasse;
-                span.id = verdi[0];
-                var navklasse = verdi[0] + 'liste';
+                span.id = navn;
+                var navklasse = navn + 'liste';
                 nav.className = navklasse;
                 nav.id = navklasse;
                 document.getElementById('samleobjekt').appendChild(span);
@@ -772,11 +773,13 @@ function lastInnSider() {
                 a.appendChild(tekst);
                 a.id = verdi[0];
                 var navn = verdi[3];
+                var navnet = verdi[3];
+                navn = navn.replace(/ /g, '_');
                 var navklasse = navn + 'liste';
                 if (verdi[3] == 'hovedmeny') {
                     a.className = 'listeobjekt over';
                     document.getElementById('liste').appendChild(a);
-                } else if (verdi[3] == navn) {
+                } else if (verdi[3] == navnet) {
                     var under = 'under' + navn;
                     a.className = 'listeobjekt ' + under;
                     document.getElementById(navklasse).appendChild(a);

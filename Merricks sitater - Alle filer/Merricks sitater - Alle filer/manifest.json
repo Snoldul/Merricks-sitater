@@ -1,0 +1,39 @@
+{
+  "name": "Merricks sitater",
+  "description": "Hver nyåpnede fane gir et herlig sitat fra Merrick på en flott bakgrunn. I tillegg kan favorittsider legges til i menyen på siden.",
+  "version": "1.0.2",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "merricks_sitater.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["file://*"],
+      "css": ["style.css"],
+      "js": ["jquery.js", "merricks-sitater.js", "innstillinger.js"]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "https://fonts.googleapis.com/css?family=Roboto",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  ],
+  "options_ui": {
+    "page": "innstillinger.html",
+    "chrome_style": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "Merricks sitater",
+    "default_popup": "innstillinger.html"
+  }
+}
